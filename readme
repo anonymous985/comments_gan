@@ -1,0 +1,8 @@
+-------------------------
+1. Pre-handling of Datasets
+	data_prepare (folder): the data form of the two datasets (i.e., RumourEval and PHEME)  conversion: json--> tsv. 
+	The form of tsv: id,is_rumour,veracityLabel,for,against,observing,nones,category,text,reaction
+	The results are saved to data (folder).
+2.  Model Structure
+src (folder): data_loader: data loading; model: the code of model; read_data_pheme: reading pheme data; train: the entrance of model training.
+-------------------------
